@@ -1,0 +1,72 @@
+/*color scheme*/
+:root{
+    --dark: #14191f;
+}
+
+
+
+/*Global styles*/
+* {
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: var(--dark);
+    line-height: 5;
+    margin: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content:center;
+   text-align: center;
+   background-image: url(images/abyan-athif.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+}
+
+nav {
+    background-image: url(images/abyan-athif.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.section-1{
+    background-image: url(images/callum-shaw.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.section-2{
+    background-image: url(images/michael-baird.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.section-3{
+    background-image: url(images/ry-van.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.heading{
+    font-size: 30px;
+    justify-content:flex-end;
+}
