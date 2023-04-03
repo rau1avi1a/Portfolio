@@ -80,6 +80,7 @@ hgroup{
     flex-direction: row;
     line-height: 2;
     border: 2px solid black;
+    filter: blur(2px);
 }
 
 hgroup img{
@@ -98,6 +99,7 @@ hgroup p{
 }
 
 hgroup:hover{
+    filter: none;
     transition: all 0.5s ease-in-out;
     box-shadow: inset 0px 0px 8px purple;
     background-image: url(images/daniel-lepik.jpg);
@@ -171,7 +173,7 @@ footer a{
 }
 
 /*media query*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
     header p{
         display: flex;
