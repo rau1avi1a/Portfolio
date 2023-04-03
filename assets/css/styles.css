@@ -14,6 +14,7 @@ a{
     box-sizing: border-box;
 }
 
+/*default styles*/
 body{
     background-color: var(--dark);
     display: flex;
@@ -24,6 +25,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*Header section*/
 header{
    background-image: url(images/ivana-cajina-asuyh.jpg);
    background-size: cover;
@@ -51,14 +53,14 @@ header p{
 
 header nav {
     display: flex;
+    flex-direction: row;
     font-size: 30px;
     justify-content: space-evenly;
-    padding-top: 200px;
+    padding-top: 400px;
 }
 
-.shadow:hover{
-    text-shadow: 1px 1px 2px rgb(25, 0, 255), 0 0 1em rgb(76, 36, 196), 0 0 0.2em rgb(221, 0, 255);
-}
+/*Main section*/
+
 
 h2{
     font-size: 35px;
@@ -114,6 +116,7 @@ section{
     padding-bottom: 30px;
 }
 
+/*Footer section*/
 footer{
     display: flex
 }
@@ -126,6 +129,8 @@ footer a{
 }
 
 /*Classes*/
+
+/*About Me class*/
 .section-1{
     padding-bottom: 50px;
     background-image: url(images/ivana-cajina-asuyh.jpg);
@@ -139,6 +144,7 @@ footer a{
     text-shadow: 1px 1px 2px rgb(109, 90, 255), 0 0 1em rgb(215, 215, 215), 0 0 0.2em rgb(67, 55, 91);
 }
 
+/*Projects class*/
 .section-2{
     background-image: url(images/dynamic-wang-g.jpg);
     background-size: cover;
@@ -148,6 +154,7 @@ footer a{
     min-height: 100vh;
 }
 
+/*Contact Me*/
 .section-3{
     background-image: url(images/ivana-cajina-asuyh.jpg);
     background-size: cover;
@@ -158,8 +165,21 @@ footer a{
 
 }
 
+/*Hover shadow property*/
+.shadow:hover{
+    text-shadow: 1px 1px 2px rgb(25, 0, 255), 0 0 1em rgb(76, 36, 196), 0 0 0.2em rgb(221, 0, 255);
+}
+
 /*media query*/
 @media screen and (max-width: 700px) {
+
+    header p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
     hgroup {
         flex-direction: column;
         justify-content: center;
