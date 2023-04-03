@@ -78,26 +78,26 @@ h3{
     font-size: 22px;
     padding-left: 20px;
     padding-top: 30px;
+    margin-bottom: -40px;
 }
 
 hgroup{
     transform: scale(.8);
     display: flex;
     padding: 20px;
-    flex-direction: row;
+    flex-direction: column;
     line-height: 2;
     border: 2px solid black;
     filter: blur(2px);
 }
 
-hgroup img{
+hgroup a img {
     display: flex;
-    width: 50%;
-    height: 50%;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 hgroup p{
@@ -117,7 +117,7 @@ hgroup:hover{
     background-repeat: no-repeat;
     text-shadow: 1px 1px 2px rgb(109, 90, 255), 0 0 1em rgb(215, 215, 215), 0 0 0.2em rgb(67, 55, 91);
     transition: transform 1s;
-    transform: scale(.98);
+    transform: scale(.85);
 }
 
 section{
@@ -195,6 +195,7 @@ footer a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     hgroup img{
