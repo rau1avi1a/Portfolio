@@ -155,12 +155,35 @@ footer a{
 
 /*Projects class*/
 .section-2{
-    background-image: url(images/dynamic-wang-g.jpg);
+    background-image: url(./../images/annie-spratt.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
+    text-shadow: 1px 1px 2px rgb(109, 90, 255), 0 0 1em rgb(215, 215, 215), 0 0 0.2em rgb(67, 55, 91);
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+
+.projectNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 
 /*Contact Me*/
